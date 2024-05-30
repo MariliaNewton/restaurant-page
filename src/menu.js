@@ -13,6 +13,10 @@ function loadMenuPage() {
   restaurantName.innerHTML = "JOJO";
   restaurantName.appendChild(restaurantMenu);
 
+  // Create restaurant hours
+  const restaurantHours = document.createElement("h3");
+  restaurantHours.innerHTML = "Everyday 9am - 5pm";
+
   // Create coffe list
   const coffee = document.createElement("h2");
   coffee.innerHTML = "COFFEE";
@@ -77,6 +81,7 @@ function loadMenuPage() {
 
   // Apend to page container
   containerPage.appendChild(restaurantName);
+  containerPage.appendChild(restaurantHours);
   containerPage.appendChild(containerMenu);
 }
 
