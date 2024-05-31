@@ -9,8 +9,8 @@ function loadMenuPage() {
   // Create page title
   const restaurantName = document.createElement("h1");
   const restaurantMenu = document.createElement("span");
-  restaurantMenu.innerHTML = "Menu";
   restaurantName.innerHTML = "JOJO";
+  restaurantMenu.innerHTML = "Menu";
   restaurantName.appendChild(restaurantMenu);
 
   // Create restaurant hours

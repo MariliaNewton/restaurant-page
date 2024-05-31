@@ -125,3 +125,26 @@ li button:hover:after {
   font-weight: 300;
   text-align: left;
 }
+
+.coffee-image {
+  opacity: 0.15;
+  height: 20rem;
+  position: absolute;
+}
+
+.container-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 35rem;
+}
+
+.container-about p {
+  max-width: 50rem;
+  color: var(--dark-coffee);
+  font-size: 1.5rem;
+  text-align: justify;
+  font-weight: 300;
+  position: relative;
+  top: 2rem;
+}
